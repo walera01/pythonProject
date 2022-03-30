@@ -1,7 +1,12 @@
-{% load static %}
 .topnav {
     background-color: black;
-    overflow: auto;
+    overflow: visible ;
+    position: fixed;
+
+    right: 0;
+    left: 0;
+    top: 0;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -28,35 +33,38 @@
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 10px; /* Set the width of the sidebar */
+    width: 130px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    z-index: initial; /* Stay on top */
+    top:0; /* Stay at the top */
     left: 0;
-    background-color: wheat; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    overflow-y: paged-x-controls;
+    background-color: black; /* Black */
+    overflow-x: visible; /* Disable horizontal scroll */
+    overflow-y: visible;
     padding-top: 20px;
+
 }
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 10px 10px 6px 16px;
+    margin-top:30px ;
+    padding: 10px 1px 2px 9px;
     text-decoration: none;
-    font-size: 5px;
-    color: white;
-    display: inline-table;
+    font-size: 25px;
+    color: aqua;
+    display: block;
+
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: red;
+    color: pink;
 }
 
 /* Style page content */
 .main {
     margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -102,4 +110,14 @@ p{
 .well{
     font-family: "Agency FB";
     font-size: 26px;
+}
+h1{
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: hotpink;
 }

@@ -17,4 +17,9 @@ def site2(request):
     return render(request, 'djamshut/clients.html', context=context)
 
 def name_id(request, form_id):
-    return HttpResponse(f"name number {form_id}")
+    form = Regis.objects.all()
+    context = {
+        'form': form,
+        'form_id': form_id,
+    }
+    return render(request, 'djamshut/nameclient.html',context=context)
