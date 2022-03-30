@@ -1,0 +1,154 @@
+1647587487515	geckodriver	INFO	Listening on 127.0.0.1:57582
+1647587490917	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57583" "-no-remote" "-profile" "C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofilepdqT5E"
+1647587494258	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofilepdqT5E\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57583/devtools/browser/477d78a3-aac9-47bc-b081-8e9d47884c80
+1647587507278	Marionette	INFO	Listening on port 57588
+1647587507830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647587658776	Marionette	INFO	Stopped listening on port 57588
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 9396, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+t:57673/devtools/browser/ec7e31f0-1889-4832-a6eb-9965efadcc9a
+1647587646072	Marionette	INFO	Listening on port 57678
+1647587646134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647587654791	Marionette	INFO	Stopped listening on port 57678
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1647587862045	geckodriver	INFO	Listening on 127.0.0.1:57752
+1647587863913	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57753" "-no-remote" "-profile" "C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofileYoH04w"
+1647587866180	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofileYoH04w\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57753/devtools/browser/f3351d03-fff4-4492-856f-578a5f6c2f10
+1647587871279	Marionette	INFO	Listening on port 57758
+1647587871771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+[Child 9440, MediaDecoderStateMachine #1] WARNING: 8d6e2e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: "Could not find engine to update"
+console.error: "Could not find engine to update"
+console.error: "Could not find engine to update"
+console.error: "Could not find engine to update"
+console.error: "Could not find engine to update"
+JavaScript error: chrome://browser/content/preferences/search.js, line 466: TypeError: gEngineView.selection is null
+JavaScript error: chrome://browser/content/preferences/search.js, line 466: TypeError: gEngineView.selection is null
+1647589705221	Marionette	INFO	Stopped listening on port 57758
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PSessionStorageObserver::Msg_Observe) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RecordDiscardedData) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+les\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58180" "-no-remote" "-profile" "C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofilesdRO5T"
+1647588487027	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofilesdRO5T\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58180/devtools/browser/00907fef-c513-42b4-9da8-03ff47297a79
+1647588495146	Marionette	INFO	Listening on port 58187
+1647588495685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1647589704963	Marionette	INFO	Stopped listening on port 58187
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 8696, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+ot open the file at C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofilezODc8S\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59312/devtools/browser/fca62118-90c5-4512-9a29-2933af3bdffc
+1647589652237	Marionette	INFO	Listening on port 59319
+1647589652652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647589708188	Marionette	INFO	Stopped listening on port 59319
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+-no-remote" "-profile" "C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofilekrMBwD"
+1647589705866	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofilekrMBwD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59421/devtools/browser/448a4897-04cd-495c-974e-0fe9ecb0e892
+1647589715756	Marionette	INFO	Listening on port 59428
+1647589716073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1647591956725	Marionette	INFO	Stopped listening on port 59428
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1647591960130	geckodriver	INFO	Listening on 127.0.0.1:61405
+1647591962038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61406" "-no-remote" "-profile" "C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofilejgqUl1"
+1647591964334	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofilejgqUl1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61406/devtools/browser/3503f9a0-5d6e-4cfa-9ef1-4416f803287e
+1647591969423	Marionette	INFO	Listening on port 61413
+1647591969714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1647593600775	Marionette	INFO	Stopped listening on port 61413
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 3384, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:565
+sers\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofiledSbJvC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63215/devtools/browser/191355d1-2375-4412-86d1-2b509e399684
+1647593580544	Marionette	INFO	Listening on port 63222
+1647593581023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647593597004	Marionette	INFO	Stopped listening on port 63222
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647595085677	geckodriver	INFO	Listening on 127.0.0.1:64513
+1647595089561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64514" "-no-remote" "-profile" "C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofile6JAcka"
+1647595099098	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofile6JAcka\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64514/devtools/browser/2c7002eb-50eb-4eb8-a8d1-0a897aad83d3
+1647595114435	Marionette	INFO	Listening on port 64519
+1647595114685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: [Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1647607865080	Marionette	INFO	Stopped listening on port 64519
+[Parent 6296, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+"C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofile2ZwvZK"
+1647595162950	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shleg.a\\AppData\\Local\\Temp\\rust_mozprofile2ZwvZK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64590/devtools/browser/98f80efc-a9d5-4e78-a4cf-787368ec335f
+1647595168744	Marionette	INFO	Listening on port 64595
+1647595169197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+[Child 3760, MediaDecoderStateMachine #1] WARNING: 8e10660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:332:29
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+1647595209149	Marionette	INFO	Stopped listening on port 64595
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
