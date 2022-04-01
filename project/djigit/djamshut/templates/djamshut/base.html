@@ -18,11 +18,26 @@
       <a href="#">Contact</a>
     </div>
     <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+        {% for i in cats%}
+            <div class="topnav">
+            <li><a href="{{i.get_absolute_url}}">{{c.name}}</a> </li>
+            </div>
+        {% endfor %}
     </div>
+ {% if cat_selected == 0 %}
+		<li class="selected">Все категории</li>
+{% else %}
+		<li><a href="{% url 'home' %}">Все категории</a></li>
+{% endif %}
+
+{% for c in cats %}
+	{% if c.pk == cat_selected %}
+		<li class="selected">{{c.name}}</li>
+	{% else %}
+		<li><a href="{{ c.get_absolute_url }}">{{c.name}}</a></li>
+	{% endif %}
+{% endfor %}
+
 {% block content %}
 {% endblock %}
 </body>

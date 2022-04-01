@@ -17,9 +17,22 @@ def site2(request):
     return render(request, 'djamshut/clients.html', context=context)
 
 def name_id(request, form_id):
-    form = Regis.objects.all()
+    form = Regis.objects.filter(id=form_id)
+
     context = {
         'form': form,
         'form_id': form_id,
     }
     return render(request, 'djamshut/nameclient.html',context=context)
+
+def name_id2(request, cat_id):
+    form = Regis.objects.filter(id=cat_id)
+    cats=Category.objects.all()
+
+    context = {
+        'form': form,
+        'cat_id': cat_id,
+        'cats': cats,
+        'cat_selected': cat_id,
+    }
+    return render(request, 'djamshut/client.html',context=context)
