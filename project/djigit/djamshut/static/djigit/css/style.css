@@ -1,11 +1,11 @@
-.topnav {
+.topnav{
     background-color: black;
-    overflow: visible ;
+    overflow: visible;
     position: fixed;
-
     right: 0;
-    left: 0;
+    left: 10px;
     top: 0;
+    float: right;
 
 }
 
@@ -17,6 +17,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    position:  fixed;
 }
 
 /* Change the color of links on hover */
@@ -84,7 +85,6 @@ form{
 
 }
 body{
-
     background-image: url("neon-lights-background-theme_52683-44625.jpg");
     background-repeat: revert;
     background-position: 100px 50px;
@@ -102,10 +102,10 @@ ul{
     color: #42e5d1;
 }
 p{
-    font-size: 30px;
+    font-size:10px;
     font-family: "JetBrains Mono";
     color: #6e1eef;
-    font-weight: 900;
+
 }
 .well{
     font-family: "Agency FB";

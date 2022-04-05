@@ -11,8 +11,10 @@ def site1(request):
 
 def site2(request):
     form = Regis.objects.all()
+    cats = Category.objects.all()
     context = {
         'form': form,
+        'cats': cats,
     }
     return render(request, 'djamshut/clients.html', context=context)
 

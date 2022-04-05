@@ -5,7 +5,8 @@
         <div>
             <form class="btn text-info">
                 <p> Name {{i.id}}</p><a href="{{ i.get_absolute_url }}">{{i.name}}</a>
-                <p>Password</p>{{i.password}}
+                <p>Password: {{i.password}}</p>
+                <img src="{{i.photo.url}}" width="350" height="250">
             </form>
         </div>
 

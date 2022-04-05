@@ -4,6 +4,7 @@
         <div class="btn well">
             {% csrf_token %}
             {{form}}
+            {{form.photo}}
             <div><button type="submit" class="btn btn-primary">Отправить</button></div>
         </div>
     </form >
