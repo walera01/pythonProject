@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     {% load static %}
+    {% load  regis_tags %}
     {% load bootstrap3 %}
     {% bootstrap_css %}
     {% bootstrap_javascript jquery='full' %}
@@ -11,22 +12,23 @@
 </head>
 <body>
  <!-- Side navigation -->
-    <div class="sidenav">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="/client">Clients</a>
-      <a href="#">Contact</a>
-    </div>
-    <div class="topnav">
+ <div class="top">
+    <ul>
         {% if cat_selected == 0 %}
-                <p>Все категории</p>
+                <li>Все категории</li>
         {% else %}
-                <p><a href="{% url 'home' %}">All category</a></p>
+                <li><a href="{% url 'second' %}">Все категории</a></li>
         {% endif %}
-        {% for c in cats %}
-            <p><a href="{{ c.get_absolute_url }}">{{c.name}}</a></p>
-        {% endfor %}
+        {% show_categories %}
+    </ul>
 </div>
+<div class="sidenav">
+  <a href="{% url 'home' %}">Main</a>
+  <a href="#">Services</a>
+  <a href="/client">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
 {% block content %}
 {% endblock %}
 </body>

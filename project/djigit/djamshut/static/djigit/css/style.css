@@ -1,29 +1,35 @@
-.topnav{
+.top{
     background-color: black;
     overflow: visible;
     position: fixed;
     right: 0;
-    left: 10px;
     top: 0;
-    float: right;
+    left: 0;
+    padding-bottom: 16px;
 
 }
-
 /* Style the links inside the navigation bar */
-.topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+.top a{
+    margin-top:30px ;
+    padding: 10px 1px 2px 9px;
     text-decoration: none;
-    font-size: 20px;
-    position:  fixed;
-}
+    font-size: 25px;
+    color: white;
+    display: inline;
+    font-family: "Bodoni MT";
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+}
+.top li{
+    display: inline;
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.top a:hover {
+    color: aqua;
+
+    padding-bottom: 18px;
 }
 
 /* Add a color to the active/current link */
@@ -31,6 +37,62 @@
     background-color: #4CAF50;
     color: white;
 }
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 130px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: initial; /* Stay on top */
+    top:0; /* Stay at the top */
+    left: 0;
+    background-color: black; /* Black */
+    overflow-x: visible; /* Disable horizontal scroll */
+    overflow-y: visible;
+    padding-top: 20px;
+
+}
+
+/* The navigation menu links */
+.sidenav a {
+    margin-top:30px ;
+    padding: 10px 1px 2px 9px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aqua;
+    display: block;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: pink;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 10px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+form{
+    text-align: center;
+    text-decoration-color: #f2f2f2;
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 25px;
+
+}
+
+
+
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -102,7 +164,7 @@ ul{
     color: #42e5d1;
 }
 p{
-    font-size:10px;
+    font-size:30px;
     font-family: "JetBrains Mono";
     color: #6e1eef;
 

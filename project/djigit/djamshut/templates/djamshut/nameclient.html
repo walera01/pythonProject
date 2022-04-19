@@ -1,7 +1,14 @@
 {% extends 'djamshut/base.html'%}
 {% block content %}
+{% for i in form %}
+<div>
+    <form class="btn text-info">
+        <p>Name nashego klienta {{i.name}}</p>
+        <p><img src="{{i.photo.url}}" width="350" height=auto"></p>
+    </form>
+</div>
+{% endfor%}}
 
-<h1>Number nashego klienta {{form}}</h1>
 
 
 {% endblock %}

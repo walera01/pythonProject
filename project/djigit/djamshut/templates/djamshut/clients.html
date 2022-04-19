@@ -1,15 +1,27 @@
 {% extends 'djamshut/base.html'%}
 {% block content %}
+{% load regis_tags%}
     <div>
     {% for i in form %}
         <div>
-            <form class="btn text-info">
-                <p> Name {{i.id}}</p><a href="{{ i.get_absolute_url }}">{{i.name}}</a>
-                <p>Password: {{i.password}}</p>
-                <img src="{{i.photo.url}}" width="350" height="250">
-            </form>
+             <form>
+                <table class="btn text-info">
+                    <tr>
+                        <th>
+                            <img src="{{i.photo.url}}" width="350" height="250">
+                        </th>
+                        <th>
+                            <p> Name {{i.pk}}</p><a href="{{ i.get_absolute_url }}">{{i.name}}</a>
+                            <p>Password: {{i.password}} {{i.category}}</p>
+                        </th>
+                    </tr>
+                </table>
+             </form>
         </div>
-
     {% endfor %}
+    <div>
+        <h1><a href="/delete/1">Удалить</a></h1>
+    </div>
+
     </div>
 {% endblock %}
